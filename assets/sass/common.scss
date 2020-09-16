@@ -33,7 +33,7 @@
   }
 
   h3 {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 10px;
 
@@ -44,7 +44,7 @@
 
   .lead {
     @include lead;
-
+    margin-bottom: 20px;
     @include min($tablet) {
       font-size: 16px;
     }
@@ -91,7 +91,7 @@
 
     li {
       @include items;
-      font-size: 12px;
+      font-size: 13px;
       text-align: justify;
       margin-bottom: 6px;
 
@@ -106,7 +106,6 @@
 
     img {
       @include fitImg;
-
     }
   }
 
@@ -145,11 +144,9 @@
 /* input
 /*-----------------------------------------------------------------------*/
 #input {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 
   @include min($tablet) {
-    margin-bottom: 80px;
-
     h2 {
       float: left;
       font-size: 21px;
@@ -199,8 +196,6 @@
           float: right;
           width: 65%;
         }
-
-
       }
     }
 
@@ -235,13 +230,11 @@
         margin-bottom: 15px;
 
         @include min($tablet) {
-
           font-size: 14px;
           width: 85%;
         }
       }
     }
-
   }
 
   .sheet {
@@ -298,6 +291,15 @@
     }
   }
 
+  .info,
+  .visual,
+  .detail {
+    margin-bottom: 80px;
+    @include min($tablet) {
+      margin-bottom: 80px;
+    }
+  }
+
   .info {
     @include clearfix;
 
@@ -331,6 +333,9 @@
   }
 
   .detail {
+    .wrap .box {
+      margin-bottom: 40px;
+    }
     @include min($tablet) {
       padding: 0 20px;
 
@@ -340,7 +345,6 @@
 
         .box {
           width: calc(50% - 20px);
-          margin-bottom: 40px;
 
           &:nth-child(2n + 1) {
             margin-right: 40px;

@@ -166,7 +166,7 @@
       }
       dd {
         margin-bottom: 20px;
-        font-size: 12px;
+        font-size: 13px;
       }
       @include min($tablet) {
         dt a {

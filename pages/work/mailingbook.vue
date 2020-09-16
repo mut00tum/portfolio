@@ -201,7 +201,7 @@
 
       <div class="detail">
         <h2 class="inner">メールデザイン</h2>
-        <p class="lead">
+        <p class="lead inner">
           サービスコンテンツとなるHTMLメールは、メーラーで閲覧した際に読みやすく視認性も高くするのため、編集者と蜜に連携をとりながら文章量の調節や画像の差し込み位置などのスタディを繰り返し行いました。
         </p>
         <div class="wrap">

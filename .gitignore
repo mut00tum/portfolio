@@ -90,8 +90,9 @@ sw.*
 *.swp
 
 # Don't commit vscode setting
-.code-workspace
+*.code-workspace
 
 # Don't commit build files
 .awspublish
+.awspublish*
 deploy.sh

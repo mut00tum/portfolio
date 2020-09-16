@@ -54,7 +54,13 @@
       <div class="copyright">
         <small
           >&copy; 2020 All rights reserved. – Designed &amp;
-          <a href="">Coded</a> by Koji Muto</small
+          <a
+            href="https://github.com/mut00tum/portfolio"
+            target="_blank"
+            rel="noopener"
+            >Coded</a
+          >
+          by Koji Muto</small
         >
       </div>
     </footer>
@@ -169,6 +175,9 @@
       @include min($tablet) {
         font-size: 11px;
       }
+    }
+    a {
+      text-decoration: underline;
     }
   }
 }

@@ -3,7 +3,8 @@
 /*-----------------------------------------------------------------------*/
 
 // Color
-$colors: (letter: #3e3e3e,
+$colors: (
+  letter: #3e3e3e,
 );
 
 @function colors($key) {
@@ -22,7 +23,9 @@ $color-img-border: #cecece;
 $color-footer-caption: #cecece;
 $color-footer-bg: #2b2a26;
 
-$palettes: (letter: (base: $color-letter,
+$palettes: (
+  letter: (
+    base: $color-letter,
     light: lighten($color-letter, 20%),
     dark: darken($color-letter, 10%),
   ),
@@ -45,7 +48,8 @@ $palettes: (letter: (base: $color-letter,
 /*-----------------------------------------------------------------------*/
 /* Animation
 /*-----------------------------------------------------------------------*/
-$ease: (show: 0.2s ease,
+$ease: (
+  show: 0.2s ease,
   hide: 0.3s ease,
   onmouse: 0.8s ease,
 );
@@ -104,10 +108,9 @@ $main-title-sp: 13px;
   margin-bottom: 20px;
 }
 
-@mixin lead($fontSize: 12px) {
+@mixin lead($fontSize: 14px) {
   font-size: $fontSize;
   text-align: justify;
-  margin-bottom: 40px;
 }
 
 @mixin label($fontsize: 12px, $weight: 700) {
