@@ -83,7 +83,10 @@ export default {
     }, ],
   },
   css: ['~/assets/css/reset.css', '~/assets/sass/common.scss'],
-  plugins: [],
+  plugins: [{
+    src: '~plugins/ga.js',
+    mode: 'client',
+  }],
   components: true,
   buildModules: ['@nuxt/typescript-build'],
   modules: ['@nuxtjs/style-resources', 'nuxt-webfontloader'],
